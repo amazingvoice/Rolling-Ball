@@ -43,5 +43,14 @@
     <None Include="sphere.128">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="fshader42.glsl" />
+    <None Include="sphere.256">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="sphere.1024">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="vshader42new.glsl" />
+    <None Include="vshader42.glsl" />
   </ItemGroup>
 </Project>
