@@ -53,6 +53,7 @@ void main()
     vec3 H = normalize( L + E ); 
 
 	vec3 N = normalize(Normal_Matrix * vNormal);
+	if ( dot(N, E) < 0 ) N = -N;
 
 	// Compute terms in the illumination equation
 
